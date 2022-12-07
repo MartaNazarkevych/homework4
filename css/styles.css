@@ -62,7 +62,6 @@ body {
 
 .page-link {
   display: flex;
-  padding: 24px;
 }
 
 .logo-main {
@@ -84,6 +83,7 @@ body {
   text-transform: uppercase;
   color: var(--primary-text-color);
   margin-right: 77px;
+  padding-top: 24px;
 }
 
 .menu-link {
@@ -93,6 +93,9 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--primary-text-color);
+  padding-bottom: 24px;
+  padding-top: 24px;
+  display: block;
 }
 
 .menu-item:not(:last-child) {
@@ -104,20 +107,17 @@ body {
   color: var(--accent-color);
 }
 
-.email {
-  font-family: var(--primary-font);
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: var(--text-color);
-}
 
+.email,
 .phone-number {
   font-family: var(--primary-font);
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--text-color);
+  padding-bottom: 24px;
+  padding-top: 24px;
+  display: block;
 }
 
 .contact-link:not(:last-child) {
@@ -150,7 +150,6 @@ body {
   color: #ffffff;
   text-align: center;
   margin: 0 auto;
-  margin-bottom: 48px;
 }
 
 .modal-btn {
@@ -194,11 +193,10 @@ body {
 
 .features-list {
   display: flex;
+gap: 24px;
 }
 
-.list-iteam :not(:nth-child(4n)) {
-margin-right: 24px;
-}
+.list-iteam :not(:nth-child(4n)) 
 
 .subtitle {
   font-family: var(--primary-font);
@@ -244,11 +242,6 @@ margin-right: 24px;
   padding-top: 120px;
 }
 
-.team-list-section {
-  display: flex;
-  flex-wrap: wrap;
-}
-
 .card-color {
   background: #ffffff;
 }
@@ -278,15 +271,14 @@ margin-bottom: 72px;
 
 .employees-card {
   text-align: center;
+    background-color: #ffffff;
+    border-radius: 0px 0px 4px 4px;
 }
 
 .emplyees-cards-content-wrapper {
-  border: 1px solid #F4F4FD;
-  border-top: none;
   padding-top: 32px;
   padding-bottom: 32px;
-  background-color: #ffffff;
-  margin-bottom: 120px;
+  
 }
 
 .names {
