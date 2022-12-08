@@ -134,6 +134,7 @@ body {
   color: var(--accent-color);
 }
 
+
 .tittle-section {
   background: var(--primary-text-color);
   padding-top: 192px;
@@ -196,7 +197,10 @@ body {
 gap: 24px;
 }
 
-.list-iteam :not(:nth-child(4n)) 
+
+.list-iteam {
+  width: calc((100% - 72px) / 4); 
+}
 
 .subtitle {
   font-family: var(--primary-font);
@@ -208,6 +212,7 @@ gap: 24px;
   margin-bottom: 8px;
 }
 
+
 .description {
   font-family: var(--primary-font);
   font-size: 16px;
@@ -215,6 +220,7 @@ gap: 24px;
   letter-spacing: 0.02em;
   color: var(--text-color);
 }
+
 
 .img-section {
   padding-bottom: 120px;

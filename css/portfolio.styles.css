@@ -116,6 +116,7 @@ body {
   letter-spacing: 0.02em;
   color: var(--text-color);
   padding-top: 24px;
+  padding-bottom: 24px;
   display: block;
 }
 
@@ -154,7 +155,7 @@ body {
 .btn-list {
   display: flex;
   justify-content: center;
-  padding-bottom: 72px;
+  margin-bottom: 72px;
 }
 
 .btn-link:not(:last-child) {
@@ -162,6 +163,7 @@ body {
 }
 
 .modal-btn {
+  padding: 12px 24px 12px 24px;
   font-family: var(--primary-font);
   font-weight: 500;
   font-size: 16px;
@@ -179,6 +181,7 @@ body {
   background: var(--accent-color);
   color: #ffffff;
 }
+
 .img {
   margin-top: 72px;
 }
